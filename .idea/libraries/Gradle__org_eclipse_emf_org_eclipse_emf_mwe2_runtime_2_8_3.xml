@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.emf:org.eclipse.emf.mwe2.runtime:2.8.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.mwe2.runtime/2.8.3/a70fdd029498e50c380bb4ba3c30d07a45d0e3bf/org.eclipse.emf.mwe2.runtime-2.8.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.mwe2.runtime/2.8.3/311d02410d0ee72893046db4d5b06ab4a949c27a/org.eclipse.emf.mwe2.runtime-2.8.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

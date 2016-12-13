@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel/org.example.domainmodel.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel/org.example.domainmodel.iml" group="org.example.domainmodel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel.ide/org.example.domainmodel.ide.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel.ide/org.example.domainmodel.ide.iml" group="org.example.domainmodel.ide" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel.ide/org.example.domainmodel.ide_main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel.ide/org.example.domainmodel.ide_main.iml" group="org.example.domainmodel.ide" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel.ide/org.example.domainmodel.ide_test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel.ide/org.example.domainmodel.ide_test.iml" group="org.example.domainmodel.ide" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel.idea/org.example.domainmodel.idea.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel.idea/org.example.domainmodel.idea.iml" group="org.example.domainmodel.idea" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel.idea/org.example.domainmodel.idea_main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel.idea/org.example.domainmodel.idea_main.iml" group="org.example.domainmodel.idea" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel.idea/org.example.domainmodel.idea_test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel.idea/org.example.domainmodel.idea_test.iml" group="org.example.domainmodel.idea" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel.parent.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel.parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel/org.example.domainmodel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel/org.example.domainmodel_main.iml" group="org.example.domainmodel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.domainmodel/org.example.domainmodel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.domainmodel/org.example.domainmodel_test.iml" group="org.example.domainmodel" />
+    </modules>
+  </component>
+</project>

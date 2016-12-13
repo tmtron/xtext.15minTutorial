@@ -1,0 +1,93 @@
+<idea-plugin version="2">
+	<extensions defaultExtensionNs="org.eclipse.xtext.idea">
+		<package
+			uri="http://www.example.org/domainmodel/Domainmodel"
+			class="org.example.domainmodel.domainmodel.DomainmodelPackage"
+		/>
+		<resourceFactory 
+			type="dmodel"
+			class="org.eclipse.xtext.resource.IResourceFactory"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+		/>
+		<resourceServiceProvider
+			uriExtension="dmodel"
+			class="org.eclipse.xtext.idea.resource.IResourceIdeaServiceProvider"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+		/>
+
+		<lang.setup
+			language="org.example.domainmodel.Domainmodel"
+			implementationClass="org.example.domainmodel.idea.DomainmodelIdeaSetup"
+		/>
+	</extensions>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<psi.treeChangePreprocessor implementation="org.example.domainmodel.idea.lang.psi.DomainmodelCodeBlockModificationListener"/>
+
+		<fileTypeFactory implementation="org.example.domainmodel.idea.lang.DomainmodelFileTypeFactory"/>
+		<stubElementTypeHolder class="org.example.domainmodel.idea.lang.DomainmodelElementTypeProvider"/>
+		<lang.ast.factory 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="org.eclipse.xtext.idea.lang.BaseXtextASTFactory"
+		/>
+		<lang.parserDefinition 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="org.example.domainmodel.idea.lang.parser.DomainmodelParserDefinition"
+		/>
+		<lang.findUsagesProvider 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="org.eclipse.xtext.idea.findusages.BaseXtextFindUsageProvider"
+		/>
+		<lang.refactoringSupport 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="org.eclipse.xtext.idea.refactoring.BaseXtextRefactoringSupportProvider"
+		/>
+		<lang.namesValidator 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="com.intellij.lang.refactoring.NamesValidator"
+		/>
+		<lang.syntaxHighlighterFactory key="org.example.domainmodel.Domainmodel" implementationClass="org.example.domainmodel.idea.highlighting.DomainmodelSyntaxHighlighterFactory" />
+		<lang.braceMatcher 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="com.intellij.lang.PairedBraceMatcher"
+		/>
+		<annotator 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="org.eclipse.xtext.idea.annotation.IssueAnnotator"
+		/>
+		<completion.contributor language="org.example.domainmodel.Domainmodel" implementationClass="org.example.domainmodel.idea.completion.DomainmodelCompletionContributor"/>
+		<pom.declarationSearcher implementation="org.example.domainmodel.idea.lang.pom.DomainmodelPomDeclarationSearcher"/>
+
+		<lang.psiStructureViewFactory 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="com.intellij.lang.PsiStructureViewFactory"
+		/>
+		<facetType implementation="org.example.domainmodel.idea.facet.DomainmodelFacetType"/>
+      	<lang.documentationProvider 
+      		language="org.example.domainmodel.Domainmodel"
+      		factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+      		implementationClass="org.eclipse.xtext.idea.documentation.IdeaDocumentationProvider"
+      	/>
+		<colorSettingsPage implementation="org.example.domainmodel.idea.highlighting.DomainmodelColorSettingsPage"/>
+		<highlightVisitor implementation="org.example.domainmodel.idea.highlighting.DomainmodelSemanticHighlightVisitor"/>
+
+		<lang.formatter 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="com.intellij.formatting.FormattingModelBuilder"
+		/>
+		<lang.commenter 
+			language="org.example.domainmodel.Domainmodel"
+			factoryClass="org.example.domainmodel.idea.DomainmodelExtensionFactory"
+			implementationClass="com.intellij.lang.CodeDocumentationAwareCommenter"
+		/>
+	</extensions>
+</idea-plugin>
