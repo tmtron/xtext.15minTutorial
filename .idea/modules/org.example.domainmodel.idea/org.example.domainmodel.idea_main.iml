@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":org.example.domainmodel.idea:main" external.linked.project.path="$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea" external.root.project.path="$MODULE_DIR$/../../../org.example.domainmodel.parent" external.system.id="GRADLE" external.system.module.group="org.example.domainmodel" external.system.module.type="sourceSet" external.system.module.version="1.0.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="org.eclipse.xtend.core.Xtend" name="Xtend">
+      <configuration>
+        <option name="activated" value="true" />
+        <option name="createDirectory" value="true" />
+        <option name="deleteGenerated" value="true" />
+        <option name="generateSuppressWarnings" value="true" />
+        <option name="generatedAnnotationComment" value="" />
+        <option name="hideLocalSyntheticVariables" value="true" />
+        <option name="outputDirectory" value="$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea/src/main/xtend-gen" />
+        <option name="overwriteExisting" value="true" />
+        <option name="targetJavaVersion" value="Module default" />
+        <option name="testOutputDirectory" value="$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea/src/main/xtend-gen" />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea/src/main/xtend-gen" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea/src/main/xtend-gen" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea/src/main/xtext-gen" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../org.example.domainmodel.parent/org.example.domainmodel.idea/src/main/resources" type="java-resource" />
     </content>
